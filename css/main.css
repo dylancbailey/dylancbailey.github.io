@@ -68,6 +68,8 @@
     .navbar li a {
       color: white;
       transition: all 0.7s ease;
+      -webkit-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
     }
     .navbar li a:hover {
       border-bottom: 1px solid rgba(192,192,192,.4);
@@ -84,6 +86,8 @@
       padding: 30px 50px;  
       border-radius: 5%;
       transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
     }
     .classWithPad {
       margin: 10px;
