@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: url('img/bg.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 940px;
+}
+
+/* Header */
+.header .container {
+  border-bottom: 1px solid white;
+}
+
+.header img {
+  width: 64px;
+  height: 64px;
+  margin: 30px 0;
+}
+
+/* Main */
+.main {
+  margin: 50px 0;
+}
+
+.main h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.main .btn {
+  background:rgba(0,240,190,0.25);
+  border-radius: 0;
+  border: none;
+  margin-top: 20px;
+}
+
+.main input {
+  border: none;
+  border-radius: 0;
+}
+
+.main .btn:hover {
+  color: white;
+}
+
+/* Footer */
+.footer .container {
+  border-top: 1px solid white;
+}
+
+.footer p {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

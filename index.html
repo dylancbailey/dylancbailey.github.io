@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dylan Bailey | Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<section class="main">
+  <header class='navbar navbar-static-top'>
+    <nav class='container-fluid' role='navigation'>
+      <div class='navbar-header'>
+        <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='.navbar-collapse'>
+          <span class='sr-only'>Toggle navigation</span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+          <span class='icon-bar'></span>
+        </button>
+      </div>
+      <ul class='nav navbar-nav navbar-right collapse navbar-collapse text-right'>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#about'>About</a></li>
+        <li><a href='portfolio.html'>Portfolio</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container logo">
+    <div class="row">
+      <h1 class="text-center center-block name">Dylan Bailey</h1>
+      <h4 class="text-center">Developer // Musician</h3>
+    </div>
+  </div>
+</section>
+
+<section class="about vertical-center text-center" id="about">
+  <div class="container">
+    <div class="row">
+      <p>I am a 24 year old independent web developer and musician. I've been dabbling in web development for some time, and finally decided to pursue it more seriously. I have a good grasp on front-end development, so I can create static or interactive websites. If you're interested in hiring me, <a href="contact.html">click here</a>. When I'm not working on a website, I find myself creating music. If you enjoy laid back music, <a href="http://iamsleepless.bandcamp.com">click here</a> to check out some of the albums I've released. If you're wanting to contact me about potentially creating some music for you (for a game, an intro, etc) don't hesitate to <a href="contact.html">contact me</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio vertical-center" id="portfolio">
+  <div class="container"> 
+    <div class="row"> 
+      <a href="http://iamsleepless.bandcamp.com">
+        <div class="col-xs-12 col-md-4 text-center">
+          <h1 class="classWithPad port-button">Music</h1>
+        </div>
+      </a>
+      <a href="portfolio.html">
+        <div class="col-xs-12 col-md-4 text-center">
+          <h1 class="classWithPad port-button">Websites</h1>
+        </div>
+      </a>
+      <a href="https://github.com/dylancbailey">
+        <div class="col-xs-12 col-md-4 text-center">
+          <h1 class="classWithPad port-button">Github</h1>
+        </div>
+      </a>
+    </div>
+  </div>  
+</section>
+
+<section class="contact" id="contact">
+  <div class="container contact-container">
+    <div class="row">
+      <div class="col-xs-6 text-center">
+        <h4>Navigation</h4>  
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 text-center">
+        <h4>Social</h4>  
+        <ul class="list-unstyled">
+          <li><a href="http://www.twitter.com/hewbz">Twitter</a></li>
+          <li><a href="http://www.facebook.com/wearesleepless">Facebook</a></li>
+          <li><a href="http://www.youtube.com/mrhewbz">Youtube</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function() {
+
+    $(".port-button").hover(function() {
+      $(this).animate({
+        padding: "10%"
+      }, 1000);
+
+  });
+</script>
+</body>
+</html>

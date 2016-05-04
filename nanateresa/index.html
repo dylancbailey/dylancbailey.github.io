@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nana Teresa's Bakeshop</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/ekko-lightbox.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Khula:400,700' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+</head>
+<body>
+
+  <header class="navbar navbar-static-top" role="banner">
+    <nav id="navbar-primary" class="container" role="navigation">
+      <div class='navbar-header'>
+        <a class="navbar-brand-image visible-xs hidden-md" href="#">
+          <img class="center-block" alt="Brand" src="images/logo.png" width="150">
+        </a>
+      </div>
+
+          <ul class="nav navbar-nav nav-links collapse navbar-collapse">
+            <li class="home-button"><a href="index.html">Home</a></li>
+            <li class="menu-button"><a href="menu.html">Menu</a></li>
+            <li><img id="logo-navbar-middle" src="images/logo.png" alt="Logo Thing main logo"></li>
+            <li class="about-button"><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          
+    </nav>
+  </header><!-- header role="banner" -->
+
+
+  <div class='container visible-xs hidden-md'>
+    <div class='row well well-sm mobile-well'>
+      <div class='col-md-12 text-center dropdown'>
+        <h4 class="dropdown-toggle explore" data-toggle="dropdown" id="dropdownMenu1" aria-haspopup="true" aria-expanded="true">Explore <span class='caret'></span></h4>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="#" class="dropdown-link">Home</a></li>
+          <li class='divider'></li>
+          <li><a href="#" class="dropdown-link">Menu</a></li>
+          <li class='divider'></li>
+          <li><a href="#" class="dropdown-link">About</a></li>
+          <li class='divider'></li>
+          <li><a href="#" class="dropdown-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main">
+    <div class="container">
+      <div class="row well well-lg main-well">
+        <div class="col-md-6 col-xs-12">
+          <img class="img-responsive img-thumbnail" src="images/porch.jpg">
+        </div>
+        <div class="col-md-5 col-md-offset-1 col-xs-12">
+          <p class="text-center main-p">Our mission is to ensure you have the sweetest experience, so we start every creation using organic ingredients whenever possible, imported Belgian and African chocolates, European butter, and farm fresh eggs. Whether you purchase a single cupcake or a five-tier specialty cake, we know that after just one bite, you'll be coming back for more. 
+          </p>
+          <hr class="main-divider">
+          <p class="text-center main-location">31 South 5th Street <br> Fernandina Beach, FL 32034<br>Call us: 904-277-7977</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container">
+      <hr class="site-divider">
+    </div>
+  </div>
+
+  <div class="items">
+    <div class="container">
+      <div class="row well well-lg main-well">
+        <a href="images/cupcake1.jpg" data-toggle="lightbox" data-title="One of our handcrafted cupcakes."><img class="col-xs-12 col-md-4 item-padding" src="images/cupcake1.jpg"></a>
+        <a href="images/pastry.jpg" data-toggle="lightbox" data-title="A beautiful, cinnamon pastry."><img class="col-xs-12 col-md-4 item-padding" src="images/pastry.jpg"></a>
+        <a href="images/cupcake2.jpg" data-toggle="lightbox" data-title="Spread the cheer with our mini cupcake tree."><img class="col-xs-12 col-md-4" src="images/cupcake2.jpg"></a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-nav">
+      <div class="row">
+
+      <div class="col-xs-4 col-xs-offset-1 text-center">
+        <h4 class="footer-title">Site Info</h4>
+        <div class="footer-divider"></div>
+        <ul class="list-unstyled footer-ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-4 col-xs-offset-2 text-center">
+        <h4 class="footer-title">Contact</h4>
+        <div class="footer-divider"></div>
+        <ul class="list-unstyled footer-ul">
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/ekko-lightbox.min.js"></script>
+
+  <script>
+
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+  </script>
+
+</body>
+</html>
