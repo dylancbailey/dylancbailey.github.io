@@ -220,5 +220,6 @@ hr {
   .email {
     letter-spacing: 0;
     margin-bottom: 30px;
+    font-size: 20px;
   }
 }
