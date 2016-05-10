@@ -36,6 +36,7 @@ body {
   background: url(../images/jumbotron.jpg) fixed;
   background-size: cover;
   height: 800px;
+  border-bottom: 1px solid rgb(30, 30, 32);
 }
 
 .jumbotron h1 {
