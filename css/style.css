@@ -57,9 +57,6 @@ body {
 }
 
 /* Testing stuff */
-.overlay {
-  -webkit-filter: blur(6px);
-}
 
 /* to put text ontop an image */
 h2 {
