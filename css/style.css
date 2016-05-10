@@ -131,21 +131,21 @@ hr {
 }
 
 .about-main {
-  height: 50vh;
+  height: 500px;;
 }
 
 .about-main h3 {
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .about-main-secondary {
-  height: 50vh;
+  height: 500px;
   background: rgb(30, 30, 32);
   color: white;
 }
 
 .about-main-secondary h3 {
-  padding-top: 160px;
+  padding-top: 130px;
 }
 
 .projects-main img {
