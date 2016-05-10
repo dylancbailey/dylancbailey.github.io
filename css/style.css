@@ -1,0 +1,197 @@
+body {
+  background: #F1F1F1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** INDEX PAGE *****/
+
+.navbar {
+  background: rgba(241, 241, 241, 0.6);
+}
+
+.navbar li a:hover {
+  background: white;
+  color: black;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.navbar li {
+  text-align: center;
+}
+
+.navbar a {
+  color: rgb(30, 30, 32);
+  transition: 0.5s ease;
+}
+
+.icon-bar {
+  background: rgb(30, 30, 32);
+}
+
+.jumbotron {
+  background: url(../images/jumbotron.jpg) fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.jumbotron h1 {
+  color: white;
+  text-shadow: 1px 2px #000;
+  margin-top: 400px;
+  background: rgb(30, 30, 32);
+  padding: 5px 5px;
+}
+
+.main img, .projects-music img {
+  margin-bottom: 20px;
+}
+
+.main-text {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* Testing stuff */
+.overlay {
+  -webkit-filter: blur(6px);
+}
+
+/* to put text ontop an image */
+h2 {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  width: 100%;
+  visibility: hidden;
+  color: white;
+}
+
+.projects-main p {
+  background: white;
+  color: rgb(30, 30, 32);
+}
+
+.page-divider {
+  background-color: #2A2C2B;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.page-divider h1 {
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section-header {
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+
+.css-span {
+  color: #34AADC;
+  font-weight: bold;
+}
+
+.html-span {
+  color: #F0652A;
+  font-weight: bold;
+}
+
+.jquery-span {
+  color: #ED4747;
+  font-weight: bold;
+}
+
+.to-middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+hr {
+  border-bottom: 1px solid black;
+}
+
+.email {
+  letter-spacing: 5px;
+}
+
+.contact-main {
+  height: 100vh;
+}
+
+.contact-main h3, .contact-main p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.about-main {
+  height: 50vh;
+}
+
+.about-main h3 {
+  padding-top: 120px;
+}
+
+.about-main-secondary {
+  height: 50vh;
+  background: rgb(30, 30, 32);
+  color: white;
+}
+
+.about-main-secondary h3 {
+  padding-top: 160px;
+}
+
+.projects-main img {
+  height: 400px;
+  width: 555px;
+}
+
+.main img {
+  width: 360px;
+  height: 243px;
+}
+
+.projects-span {
+  background: rgb(30, 30, 32);
+  padding: 5px 5px;
+}
+
+.projects-span a {
+  color: rgba(241, 241, 241, 1);
+  text-decoration: none;
+  transition: .5s ease;
+}
+
+.main-text a:hover {
+  color: white;
+  letter-spacing: 5px;
+}
+
+/* Medua Queries */
+@media screen and (min-width: 768px) {
+  .jumbotron h1 {
+    margin-top: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    background: rgba(255, 255, 255, 0.9);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .silhouettes {
+    width: 565px;
+  }
+}

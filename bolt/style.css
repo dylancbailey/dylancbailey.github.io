@@ -1,0 +1,157 @@
+/* NAVBAR */
+
+.navbar {
+  background: rgba(241, 241, 241, 0.6);
+}
+
+.navbar li a:hover {
+  background: white;
+  color: black;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.navbar li {
+  text-align: center;
+}
+
+.icon-bar {
+  background: rgb(30, 30, 32);
+}
+
+.navbar a {
+  color: rgb(30, 30, 32);
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.5s ease;
+}
+
+html, body {
+  background-image: url('../images/diamonds_@2x.png');
+  background-size: 141px 142px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+/* Jumbotron */
+.jumbotron {
+	background: #000;
+}
+
+.jumbotron img {
+  width: 180px;
+  height: 34px;
+}
+
+ul {
+	list-style: none;
+}
+
+.jumbotron ul li {
+	display: inline;
+  margin-right: 20px;
+  color: white;
+}
+
+.btn {
+	color: #0393FF;
+  background: transparent;
+  border: 1px solid #0393FF;
+  border-radius: 2px;
+  padding: 8px 20px;
+}
+
+.btn:hover {
+	background: #0393FF;
+  color: white;
+  border: 1px solid #0393FF;
+}
+
+.main h1 {
+	color: white;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+form {
+	margin-top: 80px;
+}
+
+#search {
+	background: transparent;
+  border: 0px;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 20px;
+  width: 400px;
+}
+
+#search:focus {
+	box-shadow: none;
+}
+
+#search:hover {
+	border-bottom: 1px solid #0393FF;
+}
+
+.supporting h2 {
+  color: #0393FF;
+}
+
+.supporting p {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.feature {
+	background: url('https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg') no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  padding: 100px 0 0 0;
+  margin-top: 60px;
+}
+
+.feature h1 {
+	color: #0393FF;
+}
+
+.feature p {
+	color: white;
+}
+
+/* FOOTER */
+.footer {
+	background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer h3 {
+	color: white;
+}
+
+.footer ul {
+	padding-left: 0;
+  color: #0393FF;
+}
+
+/* Other stuff */
+.thumbnail {
+  background: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  #search {
+    width: 100%;
+  }
+}
