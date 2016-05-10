@@ -35,15 +35,19 @@ body {
 .jumbotron {
   background: url(../images/jumbotron.jpg) fixed;
   background-size: cover;
-  height: 600px;
+  height: 100vh;
 }
 
 .jumbotron h1 {
   color: white;
   text-shadow: 1px 2px #000;
-  margin-top: 200px;
   background: rgb(30, 30, 32);
   padding: 5px 5px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .main img, .projects-music img {
@@ -59,14 +63,7 @@ body {
 /* Testing stuff */
 
 /* to put text ontop an image */
-h2 {
-  position: absolute;
-  top: 10px;
-  left: 70px;
-  width: 100%;
-  visibility: hidden;
-  color: white;
-}
+
 
 .projects-main p {
   background: white;
