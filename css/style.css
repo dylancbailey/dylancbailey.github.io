@@ -35,7 +35,7 @@ body {
 .jumbotron {
   background: url(../images/jumbotron.jpg) fixed;
   background-size: cover;
-  height: 100vh;
+  height: 800px;
 }
 
 .jumbotron h1 {
@@ -43,11 +43,7 @@ body {
   text-shadow: 1px 2px #000;
   background: rgb(30, 30, 32);
   padding: 5px 5px;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  margin-top: 200px;
 }
 
 .main img, .projects-music img {
@@ -180,12 +176,6 @@ hr {
 }
 
 /* Medua Queries */
-@media screen and (min-width: 768px) {
-  .jumbotron h1 {
-    margin-top: 100px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .navbar {
     background: rgba(255, 255, 255, 0.9);
@@ -198,22 +188,31 @@ hr {
   }
 }
 
-@media screen and (max-width: 383px) {
+@media screen and (max-width: 653px) {
+
+    .projects-span {
+      background: none;
+      padding: 0 0;
+    }
+
+    .projects-span a {
+      color: black;
+    }
+
+    .projects-span a:hover {
+      letter-spacing: 0;
+      color: black;
+    }
+}
+
+@media screen and (min-width: 546px) {
   .jumbotron h1 {
-    margin-top: 100px;
+    margin-top: 250px;
   }
+}
 
-  .projects-span {
-    background: none;
-    padding: 0 0;
-  }
-
-  .projects-span a {
-    color: black;
-  }
-
-  .projects-span a:hover {
-    letter-spacing: 0;
-    color: black;
+@media screen and (min-width: 768px) {
+  .jumbotron h1 {
+    margin-top: 200px;
   }
 }
