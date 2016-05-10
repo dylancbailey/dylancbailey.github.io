@@ -216,3 +216,9 @@ hr {
     margin-top: 200px;
   }
 }
+@media screen and (max-width: 484px) {
+  .email {
+    letter-spacing: 0;
+    margin-bottom: 30px;
+  }
+}
