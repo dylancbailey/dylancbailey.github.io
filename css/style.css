@@ -24,7 +24,8 @@ body {
 
 .navbar a {
   color: rgb(30, 30, 32);
-  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+          transition: 0.5s ease;
 }
 
 .icon-bar {
@@ -85,7 +86,9 @@ h2 {
   color: white;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .section-header {
@@ -111,7 +114,9 @@ h2 {
 .to-middle {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 hr {
@@ -129,7 +134,9 @@ hr {
 .contact-main h3, .contact-main p {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   text-align: center;
 }
 
@@ -169,7 +176,8 @@ hr {
 .projects-span a {
   color: rgba(241, 241, 241, 1);
   text-decoration: none;
-  transition: .5s ease;
+  -webkit-transition: .5s ease;
+          transition: .5s ease;
 }
 
 .main-text a:hover {

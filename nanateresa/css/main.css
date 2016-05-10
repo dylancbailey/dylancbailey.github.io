@@ -24,7 +24,8 @@
 #dylan .navbar-dylan a {
   color: rgb(30, 30, 32);
   font-family: 'Montserrat', sans-serif;
-  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+          transition: 0.5s ease;
   letter-spacing: 0;
 }
 
@@ -202,7 +203,9 @@ footer .footer-divider {
   left: 50%;
   right: auto;
   text-align: center;
-  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   width: 50%;
   background-color: #ef92a4;
 }

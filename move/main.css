@@ -24,7 +24,8 @@
 .navbar a {
   color: rgb(30, 30, 32);
   font-family: 'Montserrat', sans-serif;
-  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+          transition: 0.5s ease;
 }
 
 
@@ -46,9 +47,6 @@ p {
   text-align: center;
   color: white;
   background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg) fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -68,7 +66,8 @@ p {
   background-color: #1c1c1c;
   padding: 10px 30px;
   text-transform: uppercase;
-  transition: .5s ease;
+  -webkit-transition: .5s ease;
+          transition: .5s ease;
 }
 
 .btn:hover {
@@ -117,14 +116,16 @@ p {
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
-  transition: .5s ease;
+  -webkit-transition: .5s ease;
+          transition: .5s ease;
 }
 
 .supporting-btn:hover {
   background-color: #FFA800;
   color: #eee;
   text-decoration: none;
-  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+          transition: 0.5s ease;
 }
 
 /* Feature */
@@ -143,7 +144,9 @@ p {
   text-transform: uppercase;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 /* Footer */
@@ -180,7 +183,9 @@ p {
 .footer .hi {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 
