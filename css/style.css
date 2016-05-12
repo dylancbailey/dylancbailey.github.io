@@ -44,7 +44,6 @@ body {
   text-shadow: 1px 2px #000;
   background: rgba(30, 30, 32, 0.8);
   padding: 5px 5px;
-  margin-top: 50px;
 }
 
 .main img, .projects-music img {
@@ -135,18 +134,10 @@ hr {
   height: 500px;;
 }
 
-.about-main h3 {
-  padding-top: 100px;
-}
-
 .about-main-secondary {
   height: 500px;
   background: rgb(30, 30, 32);
   color: white;
-}
-
-.about-main-secondary h3 {
-  padding-top: 130px;
 }
 
 .projects-main img {
@@ -206,6 +197,16 @@ hr {
     }
 }
 
+@media screen and (max-width: 484px) {
+  .email {
+    letter-spacing: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+}
+
+/*
+
 @media screen and (min-width: 546px) {
   .jumbotron h1 {
     margin-top: 250px;
@@ -215,12 +216,5 @@ hr {
 @media screen and (min-width: 768px) {
   .jumbotron h1 {
     margin-top: 150px;
-  }
-}
-@media screen and (max-width: 484px) {
-  .email {
-    letter-spacing: 0;
-    margin-bottom: 30px;
-    font-size: 20px;
   }
 }
