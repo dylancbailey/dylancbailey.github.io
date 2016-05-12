@@ -160,7 +160,7 @@ hr {
 }
 
 .projects-span {
-  background: rgb(30, 30, 32);
+  background: rgba(30, 30, 32, 0.8);
   padding: 5px 5px;
 }
 
