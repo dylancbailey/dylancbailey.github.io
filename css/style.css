@@ -35,7 +35,8 @@ body {
 .jumbotron {
   background: url(../images/jumbotron.jpg) fixed;
   background-size: cover;
-  height: 800px;
+  /*height: 800px;*/
+  height: 100vh;
   border-bottom: 1px solid rgba(30, 30, 32, 0.5);
 }
 
@@ -131,7 +132,7 @@ hr {
 }
 
 .about-main {
-  height: 500px;;
+  height: 500px;
 }
 
 .about-main-secondary {
