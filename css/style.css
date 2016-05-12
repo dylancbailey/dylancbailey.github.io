@@ -123,12 +123,13 @@ hr {
 }
 
 .contact-main h3, .contact-main p {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
   text-align: center;
+  color: white;
+}
+
+.contact-main-bg {
+  background-color: rgba(30, 30, 32, 0.8);
+  padding: 20px 0;
 }
 
 .about-main {
