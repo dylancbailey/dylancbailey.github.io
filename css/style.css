@@ -181,6 +181,7 @@ hr {
   }
 }
 
+/*
 @media screen and (max-width: 653px) {
 
     .projects-span {
@@ -201,6 +202,7 @@ hr {
       font-size: 33px;
     }
 }
+*/
 
 @media screen and (max-width: 484px) {
   .email {
@@ -210,25 +212,107 @@ hr {
   }
 }
 
-/* ----------- iPad 1 and 2 ----------- */
+/* ----------- iPhone 4 and 4S ----------- */
+
 /* Portrait and Landscape */
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-  h1 {
-    font-size: 20px;
-  }
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .projects-span {
+      background: none;
+      padding: 0 0;
+    }
+
+    .projects-span a {
+      color: black;
+    }
+
+    .projects-span a:hover {
+      letter-spacing: 0;
+      color: black;
+    }
+
+    h1 {
+      font-size: 33px;
+    }
 }
 
-/* ----------- iPad 3 and 4 ----------- */
+/* ----------- iPhone 5 and 5S ----------- */
+
 /* Portrait and Landscape */
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    .projects-span {
+      background: none;
+      padding: 0 0;
+    }
+
+    .projects-span a {
+      color: black;
+    }
+
+    .projects-span a:hover {
+      letter-spacing: 0;
+      color: black;
+    }
+
     h1 {
-      font-size: 20px;
+      font-size: 33px;
+    }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .projects-span {
+      background: none;
+      padding: 0 0;
+    }
+
+    .projects-span a {
+      color: black;
+    }
+
+    .projects-span a:hover {
+      letter-spacing: 0;
+      color: black;
+    }
+
+    h1 {
+      font-size: 33px;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .projects-span {
+      background: none;
+      padding: 0 0;
+    }
+
+    .projects-span a {
+      color: black;
+    }
+
+    .projects-span a:hover {
+      letter-spacing: 0;
+      color: black;
+    }
+
+    h1 {
+      font-size: 33px;
     }
 }
 
