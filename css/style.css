@@ -33,7 +33,7 @@ body {
 }
 
 .jumbotron {
-  background: url(../images/jumbotron.jpg) fixed;
+  background: url(../images/jumbotron.jpg) no-repeat center center fixed;
   background-size: cover;
   /*height: 800px;*/
   height: 100vh;
