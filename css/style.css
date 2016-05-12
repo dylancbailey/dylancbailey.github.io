@@ -210,6 +210,17 @@ hr {
   }
 }
 
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
 /*
 
 @media screen and (min-width: 546px) {
