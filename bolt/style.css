@@ -29,7 +29,8 @@
 }
 
 html, body {
-  background-image: url('../images/diamonds_@2x.png');
+
+  background-color: rgba(0, 0, 0, 0.7);
   background-size: 141px 142px;
   font-family: "Oxygen", sans-serif;
   font-weight: 300;
