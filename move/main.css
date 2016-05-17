@@ -1,212 +1,158 @@
-/* NAVBAR */
-
-.navbar {
-  background: rgba(241, 241, 241, 0.6);
-}
-
-.navbar li a:hover {
-  background: white;
-  color: black;
-}
-
-.navbar-brand:hover {
-  color: black;
-}
-
-.navbar li {
-  text-align: center;
-}
-
-.icon-bar {
-  background: rgb(30, 30, 32);
-}
-
-.navbar a {
-  color: rgb(30, 30, 32);
-  font-family: 'Montserrat', sans-serif;
-  -webkit-transition: 0.5s ease;
-          transition: 0.5s ease;
-}
-
-
 html, body {
-  margin: 0;
+    margin: 0;
 }
-
 h1, h2, a {
-  font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
-
 p {
-  font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Main */
+
 .main {
-  height: 600px;
-  text-align: center;
-  color: white;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg) fixed;
-  background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: white;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg) fixed;
+    background-size: cover;
 }
-
 .main h1 {
-  font-size: 150px;
-  text-transform: uppercase;
+    font-size: 150px;
+    text-transform: uppercase;
 }
-
 .main p {
-  font-size: 18px;
-  margin-bottom: 35px;
+    font-size: 18px;
+    margin-bottom: 35px;
 }
-
 .btn {
-	text-decoration: none;
-  color: white;
-  background-color: #1c1c1c;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  -webkit-transition: .5s ease;
-          transition: .5s ease;
+    text-decoration: none;
+    color: white;
+    background-color: #1c1c1c;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
 }
-
 .btn:hover {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
 }
-
 
 /* Supporting */
+
 .supporting {
-  text-align: center;
-  padding: 50px 0 80px;
-  background-color: #1c1c1c;
+    text-align: center;
+    padding: 50px 0 80px;
+    background-color: #1c1c1c;
 }
-
 .supporting .col {
-  float: left;
-  width: 29%;
-  padding: 10px;
+    float: left;
+    width: 29%;
+    padding: 10px;
 }
-
-.supporting h1,
-.supporting h2 {
-  color: #ffa800;
-  font-size: 20px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+.supporting h1, .supporting h2 {
+    color: #ffa800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
-
 .clearfix {
-  clear: both;
+    clear: both;
 }
-
 .supporting p {
-  color: #efefef;
-  margin-bottom: 20px;
-  line-height: 20px;
-  font-size: 12px;
+    color: #efefef;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 12px;
 }
-
 .supporting-btn {
-  background-color: #eee;
-  color: #1c1c1c;
-  font-size: 18px;
-  padding: 8px 30px;
-  text-decoration: none;
-  display: inline-block;
-  text-transform: uppercase;
-  -webkit-transition: .5s ease;
-          transition: .5s ease;
+    background-color: #eee;
+    color: #1c1c1c;
+    font-size: 18px;
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
 }
-
 .supporting-btn:hover {
-  background-color: #FFA800;
-  color: #eee;
-  text-decoration: none;
-  -webkit-transition: 0.5s ease;
-          transition: 0.5s ease;
+    background-color: #FFA800;
+    color: #eee;
+    text-decoration: none;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
 }
 
 /* Feature */
-.feature {
-  height: 600px;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg) fixed;
-  background-size: cover;
-  margin-top: -20px;
-}
 
-.feature h1,
-.feature h2 {
-  color: #fff;
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+.feature {
+    height: 600px;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg) fixed;
+    background-size: cover;
+    margin-top: -20px;
+}
+.feature h1, .feature h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 /* Footer */
+
 .footer {
-  height: 600px;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) fixed;
-  background-size: cover;
+    height: 600px;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) fixed;
+    background-size: cover;
 }
-
-.footer h1,
-.footer h2 {
-  color: #fff;
-  font-size: 40px;
-  margin: 0 0 20px 0;
-  padding:50px 0 0;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.footer .container a {
-  color: white;
-  background-color: #1c1c1c;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.footer p {
-  color: #fff;
-  margin: 0 0 20px 0;
-  font-size: 18px;
-}
-
-.footer .hi {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-
-@media (min-width:600px) {
-  .main h1 {
-    font-size: 200px;
-  }
-
-  .supporting .col {
-    width: 30%;
-  }
-
-  .supporting h2 {
+.footer h1, .footer h2 {
+    color: #fff;
     font-size: 40px;
-  }
-
-  .supporting p {
-    font-size: 14px;
-  }
-
-  .feature h2 {
-    font-size: 60px;
-  }
+    margin: 0 0 20px 0;
+    padding: 50px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer .container a {
+    color: white;
+    background-color: #1c1c1c;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer p {
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
+.footer .hi {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+@media (min-width:600px) {
+    .main h1 {
+        font-size: 200px;
+    }
+    .supporting .col {
+        width: 30%;
+    }
+    .supporting h2 {
+        font-size: 40px;
+    }
+    .supporting p {
+        font-size: 14px;
+    }
+    .feature h2 {
+        font-size: 60px;
+    }
 }

@@ -1,232 +1,169 @@
-/* NAVBAR */
-
-#dylan .navbar-dylan {
-  background: rgba(241, 241, 241, 0.6);
-}
-
-#dylan .navbar-dylan li a:hover {
-  background: white;
-  color: black;
-}
-
-#dylan .navbar-brand:hover {
-  color: black;
-}
-
-#dylan .navbar-dylan li {
-  text-align: center;
-}
-
-#dylan .icon-bar {
-  background: rgb(30, 30, 32);
-}
-
-#dylan .navbar-dylan a {
-  color: rgb(30, 30, 32);
-  font-family: 'Montserrat', sans-serif;
-  -webkit-transition: 0.5s ease;
-          transition: 0.5s ease;
-  letter-spacing: 0;
-}
-
 h1, h2, h3, p, a {
-  font-family: 'Khula', sans-serif;
-  letter-spacing: 1px;
- }
-
+    font-family: 'Khula', sans-serif;
+    letter-spacing: 1px;
+}
 a {
-  color: white;
+    color: white;
 }
-
 body {
-  background: url(../images/symphony.png) repeat;
+    background: url(../images/symphony.png) repeat;
 }
-
 #logo-navbar-middle {
-  width: 150px;
-  margin: 0 2%;
+    width: 150px;
+    margin: 0 2%;
 }
-
 .home-button {
-  margin-left: 2%;
+    margin-left: 2%;
 }
-
 .about-button {
-  margin-right: 3%;
-  margin-left: 2.5%;
+    margin-right: 3%;
+    margin-left: 2.5%;
 }
-
 .menu-button {
-  margin-left: 3%;
-  margin-right: 2.5%;
+    margin-left: 3%;
+    margin-right: 2.5%;
 }
-
 span {
-  text-align: center;
+    text-align: center;
 }
-
 header {
-  background: url(../images/top.png) top repeat;
-  height: 200px;
+    background: url(../images/top.png) top repeat;
+    height: 200px;
 }
-
 header a {
-  font-size: 18px;
-  font-weight: 700;
+    font-size: 18px;
+    font-weight: 700;
 }
-
 .mobile-well {
-  background: url(../images/ribbon.png) repeat;
+    background: url(../images/ribbon.png) repeat;
 }
-
 .explore {
-  padding-top: 3px;
-  color: white;
-  font-size: 20px;
-  z-index: 1001;
+    padding-top: 3px;
+    color: white;
+    font-size: 20px;
+    z-index: 1001;
 }
-
 ul li .dropdown-link {
-  color: white;
-  font-weight: 700;
+    color: white;
+    font-weight: 700;
 }
-
 .dropdown-menu li a {
-  padding: 15px 0;
+    padding: 15px 0;
 }
-
 .main .main-well, .items .main-well {
-  background: url(../images/testBG.png) repeat;
+    background: url(../images/testBG.png) repeat;
 }
-
 .main-p {
-  font-size: 20px;
-  text-shadow: 1px 0 #111;
-  padding-top: 20px;
+    font-size: 20px;
+    text-shadow: 1px 0 #111;
+    padding-top: 20px;
 }
-
 .main-h4 {
-  font-size: 24px;
-  font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
 }
-
 .main-location {
-  font-size: 18px;
+    font-size: 18px;
 }
-
 .main-divider {
-  border-bottom: 2px dashed #bf4f65;
-  width: 75%;
+    border-bottom: 2px dashed #bf4f65;
+    width: 75%;
 }
-
 .site-divider {
-  border-bottom: 3px dashed #bf4f65;
-  width: 75%;
-  margin-top: 25px;
-  margin-bottom: 40px;
+    border-bottom: 3px dashed #bf4f65;
+    width: 75%;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
-
 .items img {
-  border-radius: 5%;
+    border-radius: 5%;
 }
-
 .item-padding {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
-
 footer {
-  background: url(../images/bottom.png) top repeat;
-  height: 200px;
+    background: url(../images/bottom.png) top repeat;
+    height: 200px;
 }
-
 footer h4 {
-  color: white;
-  font-size: 20px;
+    color: white;
+    font-size: 20px;
 }
-
 footer .footer-divider {
-  border-bottom: 2px dashed white;
-  margin-bottom: 10px;
+    border-bottom: 2px dashed white;
+    margin-bottom: 10px;
 }
-
 .footer-ul a {
-  text-decoration: none;
+    text-decoration: none;
 }
-
 .footer-ul li {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
-
 .footer-ul a:hover {
-  color: rgba(237, 72, 113, 1);
+    color: rgba(237, 72, 113, 1);
 }
-
 .footer-nav {
-  padding-top: 50px;
+    padding-top: 50px;
 }
-
 .main .well, .items .well {
-  box-shadow: 1px 2px 5px #444;
+    box-shadow: 1px 2px 5px #444;
 }
-
 
 /* Nav Stuff */
 
 #navbar-primary .navbar-nav {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 #navbar-primary .navbar-nav > li {
-  display: inline-block;
-  float: none;
+    display: inline-block;
+    float: none;
 }
 #navbar-primary .navbar-nav > li > a {
-  padding-left: 20px;
-  padding-right: 20px;
-  background: white;
-  color: rgba(237, 72, 113, 0.9);
-  border: 3px dashed rgba(199, 90, 111, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    color: rgba(237, 72, 113, 0.9);
+    border: 3px dashed rgba(199, 90, 111, 0.8);
 }
 .nav > li > a:hover, .nav > li > a:focus {
-  background: rgba(0,0,0,0);
-  text-decoration: none;
-  color: white;
+    background: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: white;
 }
 
 /* Bootstrap Stuff */
+
 
 /*.main-well {
   background: #E4C3A4;
 }*/
 
 .dropdown-menu {
-  left: 50%;
-  right: auto;
-  text-align: center;
-  -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  width: 50%;
-  background-color: #ef92a4;
+    left: 50%;
+    right: auto;
+    text-align: center;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 50%;
+    background-color: #ef92a4;
 }
-
 @media screen and (min-width: 991px) {
-  .item-padding {
-    margin-bottom: 0;
-  }
+    .item-padding {
+        margin-bottom: 0;
+    }
 }
-
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .main-p {
-    font-size: 18px;
-  }
-  .img-thumbnail {
-    margin-top: 10%;
-  }
+    .main-p {
+        font-size: 18px;
+    }
+    .img-thumbnail {
+        margin-top: 10%;
+    }
 }
-
 @media screen and (min-width: 1200px) {
-  .img-thumbnail {
-    margin-top: 4%;
-  }
+    .img-thumbnail {
+        margin-top: 4%;
+    }
 }

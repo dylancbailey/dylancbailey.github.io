@@ -1,333 +1,252 @@
 body {
-  background: url(../images/crossword.png) repeat;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-
-/***** INDEX PAGE *****/
-
-.navbar {
-  background: rgba(241, 241, 241, 0.6);
-}
-
-.navbar li a:hover {
-  background: white;
-  color: black;
-}
-
-.navbar-brand:hover {
-  color: black;
-}
-
-.navbar li {
-  text-align: center;
-}
-
-.navbar a {
-  color: rgb(30, 30, 32);
-  -webkit-transition: 0.5s ease;
-          transition: 0.5s ease;
-}
-
-.icon-bar {
-  background: rgb(30, 30, 32);
-}
-
 .jumbotron {
-  background: url(../images/jumbotron.jpg) no-repeat center center fixed;
-  background-size: cover;
-  /*height: 800px;*/
-  height: 100vh;
-  border-bottom: 1px solid rgba(30, 30, 32, 0.5);
+    height: 100vh;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(top, #3498db 0, #1abc9c 100%);
+    background: linear-gradient(to bottom, #3498db 0, #1abc9c 100%);
+}
+.navbar li a {
+    text-transform: uppercase;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    font-size: 15px;
+}
+.navbar li a:hover {
+    color: #eee;
+    background: rgba(0, 0, 0, 0);
+}
+.navbar li a:focus {
+    background: rgba(0, 0, 0, 0);
+}
+.navbar .icon-bar {
+    background-color: white;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin-top: 10px;
+    outline: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
 }
 
-.jumbotron h1 {
-  color: white;
-  text-shadow: 1px 2px #000;
-  background: rgba(30, 30, 32, 0.8);
-  padding: 5px 5px;
+/***** HEADER *****/
+
+header .title {
+    text-align: center;
+    opacity: 1;
+    color: white;
+    font-size: 120px;
+}
+header .subtext {
+    margin-bottom: 50px;
+    text-align: center;
+    opacity: 1;
+    color: white;
+    font-size: 50px;
+}
+.header-btn {
+    padding: 20px 60px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    text-decoration: none;
+    opacity: 1;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.header-btn:hover {
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+    text-decoration: none;
+    color: #3498db;
+    background-color: white;
+}
+.header-btn:focus {
+    text-decoration: none;
+    color: white;
 }
 
-.main img, .projects-music img {
-  margin-bottom: 20px;
+/***** MAIN *****/
+
+.main {
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #bdc3c7;
 }
-
-.main-text {
-  border-bottom: 1px solid black;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-
-/* Testing stuff */
-
-/* to put text ontop an image */
-
-
-.projects-main p {
-  background: white;
-  color: rgb(30, 30, 32);
-}
-
-.page-divider {
-  background-color: #2A2C2B;
-  height: 300px;
-  margin-bottom: 20px;
-}
-
-.page-divider h1 {
-  color: white;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.section-header {
-  border-left: 2px solid black;
-  padding-left: 10px;
-}
-
-.css-span {
-  color: #34AADC;
-  font-weight: bold;
-}
-
-.html-span {
-  color: #F0652A;
-  font-weight: bold;
-}
-
-.jquery-span {
-  color: #ED4747;
-  font-weight: bold;
-}
-
-.to-middle {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-hr {
-  border-bottom: 1px solid black;
-}
-
-.email {
-  letter-spacing: 5px;
-}
-
-.contact-main {
-  height: 100vh;
-}
-
-.contact-main h3, .contact-main p {
-  text-align: center;
-  color: white;
-}
-
-.contact-main-bg {
-  background-color: rgba(30, 30, 32, 0.8);
-  padding: 20px 0;
-}
-
-.about-main {
-  height: 500px;
-}
-
-.about-main-secondary {
-  height: 500px;
-  background: rgb(30, 30, 32);
-  color: white;
-}
-
-.projects-main img {
-  height: 400px;
-  width: 555px;
-}
-
 .main img {
-  width: 360px;
-  height: 243px;
+    margin-bottom: 20px;
 }
 
-.projects-span {
-  background: rgba(30, 30, 32, 0.8);
-  padding: 5px 5px;
+/***** ABOUT *****/
+
+.about {
+    height: 100vh;
+    background-color: #9b59b6;
+}
+.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.about p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.about .social {
+    margin: 0 20px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.about img:hover {
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
 }
 
-.projects-span a {
-  color: rgba(250, 250, 250, 1);
-  text-decoration: none;
-  -webkit-transition: .5s ease;
-          transition: .5s ease;
+/***** MUSIC *****/
+
+.music {
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: #2980b9;
+}
+.music img {
+    margin-bottom: 20px;
 }
 
-.main-text a:hover {
-  color: white;
-  letter-spacing: 5px;
+/***** CONTACT *****/
+
+.contact {
+    height: 100vh;
+    background-color: #34495e;
+}
+.contact h1 {
+    color: #233240;
+    font-size: 75px;
+}
+.contact p {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 30px;
 }
 
+/***** HELPER *****/
 
-/* Medua Queries */
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.grow {
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border: 0;
+}
+.grow:hover {
+    z-index: 2;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.social-grow {
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border: 0;
+}
+.social-grow:hover {
+    z-index: 2;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.4);
+}
+
+/***** MEDIA QUERIES *****/
+
 @media screen and (max-width: 767px) {
-  .navbar {
-    background: rgba(255, 255, 255, 0.9);
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .silhouettes {
-    width: 565px;
-  }
-}
-
-/*
-@media screen and (max-width: 653px) {
-
-    .projects-span {
-      background: none;
-      padding: 0 0;
+    .navbar {
+        background: rgba(0, 0, 0, 0.4);
     }
-
-    .projects-span a {
-      color: black;
+    header .title {
+        font-size: 100px;
     }
-
-    .projects-span a:hover {
-      letter-spacing: 0;
-      color: black;
-    }
-
-    h1 {
-      font-size: 33px;
-    }
-}
-*/
-
-@media screen and (max-width: 484px) {
-  .email {
-    letter-spacing: 0;
-    margin-bottom: 30px;
-    font-size: 20px;
-  }
-}
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .projects-span {
-      background: none;
-      padding: 0 0;
-    }
-
-    .projects-span a {
-      color: black;
-    }
-
-    .projects-span a:hover {
-      letter-spacing: 0;
-      color: black;
-    }
-
-    h1 {
-      font-size: 33px;
+    header .subtext {
+        font-size: 40px;
     }
 }
 
-/* ----------- iPhone 5 and 5S ----------- */
+/***** iPhone 2G-4s Portrait *****/
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .projects-span {
-      background: none;
-      padding: 0 0;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    .jumbotron h1 {
+        font-size: 50px;
     }
-
-    .projects-span a {
-      color: black;
+    .jumbotron .subtext {
+        font-size: 20px;
     }
-
-    .projects-span a:hover {
-      letter-spacing: 0;
-      color: black;
+    .jumbotron .header-btn {
+        padding: 20px 40px;
+        font-size: 20px;
+        background: none;
     }
-
-    h1 {
-      font-size: 33px;
+    .jumbotron img {
+        width: 25px;
+        height: 25px;
     }
-}
-
-/* ----------- iPhone 6 ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .projects-span {
-      background: none;
-      padding: 0 0;
+    .about {
+        height: 600px;
     }
-
-    .projects-span a {
-      color: black;
+    .about p {
+        font-size: 13px;
+        margin: 20px 0;
     }
-
-    .projects-span a:hover {
-      letter-spacing: 0;
-      color: black;
+    .about .social {
+        width: 20px;
+        height: 20px;
     }
-
-    h1 {
-      font-size: 33px;
+    .about .me {
+        width: 120px;
+        height: 120px;
+    }
+    .contact h1 {
+        font-size: 40px;
+    }
+    .contact p {
+        font-size: 20px;
+        letter-spacing: normal;
     }
 }
 
-/* ----------- iPhone 6+ ----------- */
+/***** iPhone 5-5s Portraint *****/
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    .projects-span {
-      background: none;
-      padding: 0 0;
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    .about .me {
+        width: 150px;
+        height: 150px;
     }
-
-    .projects-span a {
-      color: black;
+    .about p {
+        font-size: 15px;
     }
-
-    .projects-span a:hover {
-      letter-spacing: 0;
-      color: black;
+    .about .social {
+        width: 25px;
+        height: 25px;
     }
-
-    h1 {
-      font-size: 33px;
-    }
-}
-
-/*
-
-@media screen and (min-width: 546px) {
-  .jumbotron h1 {
-    margin-top: 250px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .jumbotron h1 {
-    margin-top: 150px;
-  }
 }
