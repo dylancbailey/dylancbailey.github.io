@@ -1,0 +1,248 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.jumbotron {
+    height: 100vh;
+    margin-bottom: 0;
+    background: linear-gradient(to bottom, #3498db 0, #1abc9c 100%);
+}
+.navbar li a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    background: rgba(0,0,0,0);
+}
+.navbar li a:hover {
+    color: #eee;
+    background: rgba(0,0,0,0);
+}
+.navbar li a:focus {
+  background: rgba(0, 0, 0, 0);
+}
+.navbar .icon-bar {
+    background-color: white;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin-top: 10px;
+    outline: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/***** HEADER *****/
+
+header .title {
+    text-align: center;
+    opacity: 1;
+    color: white;
+    font-size: 120px;
+}
+header .subtext {
+    margin-bottom: 50px;
+    text-align: center;
+    opacity: 1;
+    color: white;
+    font-size: 50px;
+}
+
+
+.header-btn {
+    padding: 20px 60px;
+    transition: all .5s ease;
+    opacity: 1;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.header-btn:hover {
+    transition: all .35s ease;
+    text-decoration: none;
+    color: #3498db;
+    background-color: white;
+}
+.header-btn:focus {
+  text-decoration: none;
+  color: white;
+}
+
+/***** MAIN *****/
+
+.main {
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #bdc3c7;
+}
+
+.main img {
+  margin-bottom: 20px;
+}
+/***** ABOUT *****/
+
+.about {
+    height: 100vh;
+    background-color: #9b59b6;
+}
+.me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.about p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about .social {
+  margin: 0 20px;
+  transition: all .5s ease;
+}
+
+.about img path {
+  stroke: red;
+  stroke-width: .5;
+}
+
+.about img:hover {
+  transition: all .35s ease;
+}
+
+/***** MUSIC *****/
+.music {
+  background: #2980b9;
+  height: 100%;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.music img {
+  margin-bottom: 20px;
+}
+
+/***** CONTACT *****/
+
+.contact {
+    height: 100vh;
+    background-color: #34495e;
+}
+
+.contact h1 {
+  color: #233240;
+  font-size: 75px;
+}
+
+.contact p {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+/***** HELPER *****/
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.grow {
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    border: 0;
+}
+.grow:hover {
+    z-index: 2;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.social-grow {
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    border: 0;
+}
+.social-grow:hover {
+    z-index: 2;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.4);
+}
+
+.boltToggle {
+  height: 500px;
+  width: 100%;
+  background: #2980b9;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.moveToggle {
+  height: 500px;
+  width: 100%;
+  background: blue;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+/***** MEDIA QUERIES *****/
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .navbar-nav {
+      text-align: left;
+      margin-right: 75%;
+    }
+    .navbar-toggle {
+      margin-right: 90%;
+    }
+
+    header .title {
+      font-size: 100px;
+    }
+    header .subtext {
+      font-size: 40px;
+    }
+
+    .about p {
+      font-size: 20px;
+    }
+}
