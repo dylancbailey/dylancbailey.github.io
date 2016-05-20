@@ -13,10 +13,12 @@ body {
     color: white;
     background: rgba(0, 0, 0, 0);
     font-size: 15px;
+    transition: all 0.3s ease;
 }
 .navbar li a:hover {
     color: #eee;
     background: rgba(0, 0, 0, 0);
+    transition: all 0.7s ease;
 }
 .navbar li a:focus {
     background: rgba(0, 0, 0, 0);
@@ -123,11 +125,13 @@ header .subtext {
 .music img {
     margin-bottom: 20px;
 }
-
+.music-header {
+  color: #0E2C40;
+}
 /***** CONTACT *****/
 
 .contact {
-    height: 100vh;
+    height: 300px;
     background-color: #34495e;
 }
 .contact h1 {
