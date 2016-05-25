@@ -1,0 +1,265 @@
+$mainColor: #28DBD2
+$white: #ecf0f1
+$transition: ease 0.3s all
+
+body
+  height: 100%
+  width: 100%
+  background: url(../crowd.jpg) no-repeat center center fixed
+  background-size: cover
+  font-family: 'Montserrat', sans-serif
+  font-weight: bold
+
+// - - - NAV - - - /
+.navbar
+  margin-bottom: 0
+  border: none
+
+nav
+  background: #262626
+  padding: 15px
+  a
+    color: $white
+    &:hover
+      color: $white
+  .navbar-brand
+    color: $mainColor
+    font-size: 25px
+    margin-top: -3px
+    transition: $transition
+    &:hover
+      color: rgba(41, 219, 210, 0.5)
+      transition: $transition
+
+ul
+  &.nav
+    a:hover
+      background: none
+      color: $white
+  .subtext
+    font-size: 12px
+    margin-left: -20px
+
+.nav-middle
+  padding-left: 50px
+
+.navbar-right
+  li
+    a
+      padding: 5px 15px
+      margin-top: 10px
+      transition: $transition
+      &:hover
+        background: rgba(41, 219, 210, 0.5)
+        transition: $transition
+    .little-guy
+      &:hover
+        background: none
+.main-btn
+  background: $mainColor
+  border-radius: 20px
+
+// - - - SIDEBAR - - - //
+.sidebar
+  background: -webkit-linear-gradient(top, #262626 50%, rgba(0, 0, 0, 0) 100%)
+  position: absolute
+  height: 100%
+  width: 200px
+  left: -200px
+  transition: left 0.7s ease
+  z-index: 10
+
+  &.sidebar-visible
+    position: absolute
+    left: 0px
+    height: 100%
+    width: 200px
+    transition: left 0.5s ease
+    background: -webkit-linear-gradient(top, #262626 50%, rgba(0, 0, 0, 0) 100%)
+    z-index: 10
+
+  button
+    position: relative
+    right: -80px
+    top: -320px
+    background-color: rgba(40, 219, 210, 0.3)
+    border-radius: 2px
+    transition: ease 0.7s all
+    z-index: 10
+
+    span
+      background: white
+
+    &.rotated
+      transform: rotate(90deg)
+      transition: ease 0.5s all
+      background: $mainColor
+
+  h3
+    color: $mainColor
+    text-align: center
+    margin-bottom: -8px
+  p
+    color: $white
+    text-align: center
+
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    margin-top: 40px
+
+    li
+      color: $white
+      text-align: center
+      padding: 20px 0
+      background: #313131
+      &:nth-child(1)
+        border-bottom: 1px solid #6a6a6a
+      &:nth-child(2)
+        border-bottom: 1px solid #6a6a6a
+      &:hover
+        background: rgba(106, 106, 106, 0.5)
+    .curateur
+      background-color: $mainColor
+      &:hover
+        background: rgba(41, 219, 210, 0.5)
+    a
+      color: $white
+      text-decoration: none
+
+// - - - MOBILE - - - //
+.mobile
+  position: absolute
+  width: 100%
+  height: 100%
+
+  h1
+    text-align: center
+    color: $mainColor
+
+  span
+    color: $white
+    font-size: 12px
+    vertical-align: middle
+
+// - - - MAIN CONTENT - - - //
+#main
+  position: absolute
+  width: 100%
+  height: 100%
+  z-index: 1
+
+  .content-box
+    width: 400px
+    height: 550px
+    background-color: #262626
+    margin: 0 auto
+    z-index: 1
+
+  .content-box-header
+    width: 100%
+    height: 200px
+    background-color: #313131
+
+    h1
+      color: $mainColor
+    span
+      color: #6a6a6a
+      font-size: 14px
+      vertical-align: middle
+      margin-left: 5px
+
+.social
+  list-style: none
+  margin: 0
+  padding: 0
+  margin-top: 15px
+  margin-bottom: 40px
+
+  li
+    display: inline
+    padding: 0 50px
+    color: $white
+    &:hover
+      border-bottom: 2px solid rgba(41, 219, 210, 0.5)
+      cursor: pointer
+    &:nth-child(2)
+      border-bottom: 2px solid $mainColor
+
+.facebook
+  padding: 10px
+  border: 1px solid $white
+  border-radius: 40px
+  width: 300px
+  margin: 0 auto
+  cursor: pointer
+
+  p
+    color: $white
+    margin-bottom: 0
+
+  span
+    margin-right: 20px
+
+.ou
+  color: $white
+  margin: 30px
+  font-size: 18px
+
+.input-group
+  width: 300px
+  margin: 0 auto
+
+  .glyphicon
+    color: rgba(255, 255, 255, 0.5)
+
+  span
+    background: none
+    color: white
+    border: 1px solid #6a6a6a
+    border-right: none
+
+  input
+    background: none
+    border: 1px solid #6a6a6a
+    border-left: none
+    color: $white
+    &:focus
+      box-shadow: none
+      outline: none
+      border: 1px solid #6a6a6a
+      border-left: none
+.conditions
+  text-align: right
+  color: #6a6a6a
+  padding-right: 50px
+  margin-top: 10px
+  font-size: 12px
+
+.first-group
+  margin-bottom: 15px
+
+.continue-btn
+  background-color: $mainColor
+  width: 400px
+  height: 50px
+  text-align: center
+  margin: 0 auto
+  cursor: pointer
+
+  h1
+    font-size: 16px
+    color: $white
+    margin: 0
+    padding: 20px 0
+
+
+// - - - HELPER CLASSES - - - //
+.vertical-align
+  position: relative
+  top: 50%
+  -webkit-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+// - - - MEDIA QUERIES - - - //

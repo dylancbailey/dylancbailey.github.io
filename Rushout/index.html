@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Rushout Paris</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <nav class="navbar hidden-xs">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">rushout</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="subtext" href="#">PARIS</a></li>
+                </ul>
+                <ul class="nav navbar-nav nav-middle">
+                    <li><a href="#">Explorer</a></li>
+                    <li><a href="#">Suivis</a></li>
+                    <li><a href="#">influenceurs</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="main-btn" href="#">Devenir curateur</a></li>
+                    <li><a class="little-guy" href=""><span class="glyphicon glyphicon-user"></span></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="sidebar visible-xs">
+        <h3>rushout</h3>
+        <p>paris</p>
+
+        <ul>
+            <li><a href="#">Explorer</a></li>
+            <li><a href="#">Suivis</a></li>
+            <li><a href="#">influenceurs</a></li>
+            <li class="curateur"><a href="#">Devenir curateur</a></li>
+        </ul>
+
+        <button type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <div class="mobile visible-x">
+      <h1 class="vertical-align">rushout<span>PARIS</span></h1>
+    </div>
+
+    <div id="main" class="hidden-xs">
+        <div class="container text-center vertical-align">
+            <div class="content-box">
+                <div class="content-box-header">
+                    <div class="vertical-align">
+                        <h1>rushout<span>Paris</span></h1>
+                    </div>
+                </div>
+                <ul class="social">
+                    <li>
+                        <a href="#"></a>CONNEXION</li>
+                    <li class="social-active">
+                        <a href="#"></a>INSCRIPTION</li>
+                </ul>
+                <div class="facebook-hover">
+                    <div class="facebook">
+                        <p><span class="glyphicon glyphicon-off"></span>Connecion avec Facebook</p>
+                    </div>
+                </div>
+                <p class="ou">OU</p>
+
+
+                <div class="input-group first-group">
+                    <span class="input-group-addon">
+                  <i class="glyphicon glyphicon-envelope"></i>
+              </span>
+                    <input type="text" class="form-control" placeholder="Email" />
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                  <i class="glyphicon glyphicon-lock"></i>
+              </span>
+                    <input type="text" class="form-control" placeholder="Mot de passe" />
+                </div>
+                <p class="conditions">Conditions d’utilisation</p>
+            </div>
+            <div class="continue-btn">
+                <h1 class="vertical-align">Continue</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('.navbar-toggle').on('click', function() {
+                $('.sidebar').toggleClass('sidebar-visible');
+            });
+
+            $('button').click(function() {
+                $(this).toggleClass('rotated');
+            });
+        });
+    </script>
+</body>
+
+</html>
