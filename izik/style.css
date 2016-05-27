@@ -1,8 +1,10 @@
 html, body {
   width: 100%;
   height: 100%;
-  background: #16a085;
   font-family: 'Montserrat', sans-serif;
+  background:#ec6a38;
+  -webkit-animation:colour 10s linear infinite;
+  -moz-animation:colour 10s linear infinite;
 }
 
 .izik {
@@ -34,4 +36,42 @@ blockquote p:after {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+@-webkit-keyframes colour{
+	0%{
+		background:#ec6a38
+	}
+
+	40%{
+		background:#ec4038
+	}
+
+	80%{
+		background:#ec9138
+	}
+
+	100%{
+		background:#ec6a38
+	}
+
+}
+
+@-moz-keyframes colour{
+	0%{
+		background:#ec6a38
+	}
+
+	40%{
+		background:#ec4038
+	}
+
+	80%{
+		background:#ec9138
+	}
+
+	100%{
+		background:#ec6a38
+	}
+
 }
